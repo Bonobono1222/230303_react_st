@@ -12,7 +12,7 @@ const Main = () => {
               <p className="frontContent">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti excepturi eum possimus.<br></br>Nam iure aperiam quisquam ad rem, architecto modi soluta consectetur accusamus sunt exercitationem pariatur veniam nemo libero! A.
               </p>
-              <button className="frontBtn"type="button">버튼</button>
+              <button className="frontBtn" type="button" onClick={() => alert("안녕하세요!")}>버튼</button>
             </div>
           </section>
 

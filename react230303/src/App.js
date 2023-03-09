@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./component/Header";
 import Main from "./component/Main";
 import Footer from "./component/Footer";
+// 연결 경로 확인****
 
 function App() {
   return (
