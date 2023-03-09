@@ -52,3 +52,14 @@ nav {
 .gnbItem a {
   font-weight: bold; /* 700과 동일*/
 }
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    width: 30px;
+  }
+  
+  .gnbList {
+    width: 200px;
+  }
+  
+}

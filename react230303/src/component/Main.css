@@ -63,3 +63,105 @@
   justify-content:center;
   margin-top: 80px;
 }
+
+@media screen and (max-width: 1200px) {
+  .background {
+    height: 600px; /* heigt값 설정해야 함*/
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover; /* 보통 이렇게 많이 사용 repeat, position, size 셋을 묶어서 준다고 생각*/
+  }
+  
+  .frontTxt {
+    display: flex;
+    flex-direction: column; /* direction에 따라 justify-content의 정렬 방향이 바뀐다. column: 세로로 바꿔줌*/
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #fff;
+  }
+  
+  .frontTitle {
+    font-size: 36px;
+  }
+  
+  .frontContent {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .frontBtn {
+    padding: 10px 20px; /*위아래 10p, 양옆은 20px */
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .top {
+    margin-top: -70px;
+  }
+  /* margin-top을 음수로 주면 밑에 컨텐츠가 끌어올라옴*/
+  
+  .secondTxt {
+    width: 50%;
+    max-width: 500px;
+    /*커지되 500px 위로는 커지지 말아라*/
+    min-width: 200px;
+    /*작아지되 200px 아래로는 작아지지 말아라*/
+  }
+  
+  .secondTxt p {
+    margin-top: 30px;
+  }
+  
+  .postBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+  .background {
+    height: 300px;
+  }
+  
+  .frontTxt {
+    height: 300px;
+  }
+  
+  .frontTitle {
+    font-size: 40px;
+  }
+  
+  .frontContent {
+    font-size: 16px;
+  }
+  
+  .frontBtn {
+    padding: 10px 20px; /*위아래 10p, 양옆은 20px */
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .secondTxt {
+    width: 80%;
+  }
+  
+  .secondTxt p {
+    margin-top: 30px;
+  }
+  
+  .postBox {
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+  }
+}
