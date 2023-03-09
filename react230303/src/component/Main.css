@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 600px; /* heigt값 설정해야 함*/
+  background-image: url('https://spectacular-volcano-870.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe42ea103-2254-4168-ad2d-1ae8acfa7c2f%2Fback.jpeg?table=block&id=bb7f646b-92a6-43ea-8b7d-bfbd36c6324c&spaceId=59d41ab4-5b8d-4df6-b404-8192fea19c06&width=1880&userId=&cache=v2');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover; /* 보통 이렇게 많이 사용 repeat, position, size 셋을 묶어서 준다고 생각*/
+}
+
+.frontTxt {
+  display: flex;
+  flex-direction: column; /* direction에 따라 justify-content의 정렬 방향이 바뀐다. column: 세로로 바꿔줌*/
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: #fff;
+}
+
+.frontTitle {
+  font-size: 36px;
+}
+
+.frontContent {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.frontBtn {
+  padding: 10px 20px; /*위아래 10p, 양옆은 20px */
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  border: none;
+}
+
+.top {
+  margin-top: -70px;
+}
+/* margin-top을 음수로 주면 밑에 컨텐츠가 끌어올라옴*/
+
+.secondTxt {
+  width: 500px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 40px 20px; /*위아래 40px 양옆 20px*/
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #666;
+}
+
+.secondTxt p {
+  margin-top: 30px;
+}
+
+.postBox {
+  display: flex;
+  justify-content:center;
+  margin-top: 80px;
+}
