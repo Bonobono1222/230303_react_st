@@ -9,7 +9,7 @@
 }
 
 .gnbItem a:hover {
-  color: dodgerblue;
+  color: rgb(30, 221, 255);
   font-size: 17px;
   text-decoration: underline;
 }

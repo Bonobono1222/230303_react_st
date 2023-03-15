@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+/* list-style: none 하면 리스트 앞에 모양이 없어짐*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.visuallyHidden {
+  display: none;
+}
+/* 너는 일반 화면에서는 보이지 말아라/개발자 모드에서는 보임 */
 
 
 

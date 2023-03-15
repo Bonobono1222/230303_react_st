@@ -1,5 +1,5 @@
 import React from 'react'
-import "../component/Header.css";
+import "../Header/Header.css";
 
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
         <nav>
           <h1 className="logo">
             <a href="../App.js">
-            <img src={process.env.PUBLIC_URL + './무지개애플.png'}/>
+            <img src={process.env.PUBLIC_URL + './무지개애플.png'} alt='Logo'/>
             </a>
           </h1>
 
