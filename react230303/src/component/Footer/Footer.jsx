@@ -14,7 +14,7 @@ const Footer = () => {
               <a href="tel:01075776758">전화</a>
             </li>
             <li className="footerItem">
-              <a href="http://www.youtube.com">유튜브</a>
+              <a href="http://www.youtube.com" target='_blank'>유튜브</a>
             </li>
           </ul>
         </div>
