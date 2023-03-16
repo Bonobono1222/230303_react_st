@@ -7,6 +7,7 @@ import Header from "./component/Header/Header";
 import Main from "./component/Main/Main";
 import MainPostCard from "./component/Main/MainPostCard";
 import Footer from "./component/Footer/Footer";
+import Blog from "./component/Blog/Blog";
 // 연결 경로 확인****
 
 function App() {
@@ -14,10 +15,7 @@ function App() {
     <div className="App">
       {/*<img src={process.env.PUBLIC_URL + './Hamster.jpg'}/>*/}
       <div className="wrapper">
-        <Header></Header>
-        <Main></Main>
-        <MainPostCard></MainPostCard>
-        <Footer></Footer>
+       <Blog/>
       </div>
     </div>
   );
