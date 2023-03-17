@@ -17,4 +17,6 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+// Router 사용 시 BrowserRouter로 App으로 감싸줘야한다.
 reportWebVitals();
