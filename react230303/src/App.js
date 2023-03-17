@@ -23,9 +23,13 @@ function App() {
           2. element: path 주소로 이동했을 때 보여줄 페이지
           / -> 기본경로 */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />}/>
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/:id" element={<ProductsDetail />} />
+        <Route path="/about" element={<About/>}>
+        <Route path="member" element={<h1>자식입니다</h1>}/>
+        <Route path="location" element={<h1>로케이션</h1>}/>
+        </Route>
+        
+        <Route path="/products" element={<Products />}/>
+        <Route path="/products/:id" element={<ProductsDetail />}/>
       </Routes>
       
     </div>
