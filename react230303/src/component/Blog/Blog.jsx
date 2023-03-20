@@ -61,9 +61,7 @@ const Blog = () => {
               // && 논리 연산자는 좌항의 값이 참일 때, 우항을 계산한다.
               // modal이 true일 경우, modalTitle과 i가 같은지 비교한다.
               // 좌항 modal이 false일 경우 바로 false를 반환한다.
-              modal && modalTitle === i ? setModal(false) : (setModal(true), setModalTitle(i))
-
-            }>
+              modal && modalTitle === i ? setModal(false) : (setModal(true), setModalTitle(i))}>
               <h4>{item}</h4>
               <p>안녕하세요 저는 {name[i]} 입니다.</p>
               <button onClick={()=>{
