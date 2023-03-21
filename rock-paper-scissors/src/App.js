@@ -43,10 +43,10 @@ function App() {
   }
     const judgment = (user, computer) => {
       if(user.name === computer.name) {
-        return "비겼어요~"
-      } else if(user.name == "Scissors") return (computer.name == "Rock"? "졌어요.." : "이겼어요!");
-        else if(user.name == "Rock") return (computer.name == "Paper" ? "졌어요.." : "이겼어요!");
-        else if(user.name == "Paper") return (computer.name == "Rock" ? "이겼어요!" : "졌어요.." );
+        return "Tie"
+      } else if(user.name == "Scissors") return (computer.name == "Rock" ? "Lose" : "Win");
+        else if(user.name == "Rock") return (computer.name == "Paper" ? "Lose" : "Win");
+        else if(user.name == "Paper") return (computer.name == "Rock" ? "Win" : "Lose" );
       }
     
       const randomChoice = () => {
